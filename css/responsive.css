@@ -1,3 +1,7 @@
+
+/* mobaile responsive */
+
+
 @media screen and (max-width:576px) {
 
     /* nav-section  */
@@ -66,5 +70,142 @@
     
     
     /* end banner section */
-    
+
+
+    /* start gamer section */
+
+  
+    .gamer-container{
+       
+        flex-direction: column;}
+        
+        .gamer-img{
+            width: 100%;
+           
+            background-color: #fff;
+        }
+
+        .gamer-img img{
+             margin-top: 50px;
+            }
+
+
+            .gamer-content{
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+            }
+
+
+              /* end gamer section */
+        }
+
+
+
+
+        
+
+
+        /* tabate responsive */
+
+        @media (min-width: 576px) and (max-width: 900px) {
+         
+
+/* nav-section  */
+.nav-section{
+    flex-direction: column;
+
+ }
+.nav{
+box-shadow: none;}
+ .nav-links{
+    width: 100%;
 }
+
+ .link-1{
+
+    margin-bottom:80px ;
+    flex-direction: column;
+   }
+
+   .logo{
+flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo-container{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+   
+}
+
+/* end nav section */
+
+/* banner-section */
+.banner-section{
+
+flex-direction:column-reverse;
+margin-top: 20px;
+
+
+}
+
+.banner-bg{
+
+
+width: 100%;
+background-color: none;
+background-image: none;
+}
+
+.banner-text{
+width: 85%;
+margin-top: 80px;
+
+background-color: #FDF6FB;
+padding: 20px;
+
+}
+
+.banner{
+text-align: center;
+}
+
+
+
+
+/* end banner section */
+
+
+/* start gamer section */
+
+
+.gamer-container{
+
+flex-direction: column;}
+
+.gamer-img{
+width: 100%;
+
+background-color: #fff;
+}
+
+.gamer-img img{
+ margin-top: 50px;
+}
+
+
+.gamer-content{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
+          }
+  
+    
