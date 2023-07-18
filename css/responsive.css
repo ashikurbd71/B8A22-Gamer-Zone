@@ -193,6 +193,7 @@ background-image: none;
 }
 
 .banner-text{
+    margin: 20px;
 width: 85%;
 margin-top: 80px;
 
@@ -230,10 +231,13 @@ background-color: #fff;
 
 
 .gamer-content{
+    margin: 20px;
     width: 100%;
     text-align: center;
     background-color: #fff;
 }
+
+.gamer-content p{   margin: 20px;}
 
 
 
@@ -248,12 +252,14 @@ background-color: #fff;
 
             .funny-video-section p{
 
+                margin: 20px;
                 text-align: center;
             }
 
 
             .funny-video h1{
                 font-size: 30px;
+                margin: 20px;
             }
 
             .span-title{
