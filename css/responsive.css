@@ -96,6 +96,38 @@
                 background-color: #fff;
             }
 
+            .gamer-content p{
+            font-size: 15px;
+            }
+
+
+            /* funny section */
+            .funny-video-section img{
+                width: 100%;
+            }
+
+            .funny-video-section{
+                flex-direction: column;
+            }
+
+            .funny-video-section p{
+
+                text-align: center;
+            }
+
+
+            .funny-video h1{
+                font-size: 30px;
+            }
+
+            .span-title{
+                font-size: 30px;
+            }
+
+            .funny-video p{
+                font-size: 15px;
+
+            }
 
               /* end gamer section */
         }
@@ -103,7 +135,7 @@
 
 
 
-        
+
 
 
         /* tabate responsive */
@@ -203,6 +235,35 @@ background-color: #fff;
     background-color: #fff;
 }
 
+
+
+            /* funny section */
+            .funny-video-section img{
+                width: 100%;
+            }
+
+            .funny-video-section{
+                flex-direction: column;
+            }
+
+            .funny-video-section p{
+
+                text-align: center;
+            }
+
+
+            .funny-video h1{
+                font-size: 30px;
+            }
+
+            .span-title{
+                font-size: 30px;
+            }
+
+            .funny-video p{
+                font-size: 15px;
+
+            }
 
 
 
