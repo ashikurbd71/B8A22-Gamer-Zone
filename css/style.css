@@ -43,6 +43,13 @@ font-weight: 700;
     margin: 0 auto;
     align-items: center;
     min-height: 70px;
+    
+
+
+}
+
+.nav{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -108,7 +115,7 @@ background: rgba(11, 2, 35, 0.10);
 /* start banner section */
 
 .banner{
-    background-color:#FFE5E5;
+  
 }
 .banner-section{
     max-width: 1000px;

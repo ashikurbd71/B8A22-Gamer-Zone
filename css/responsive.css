@@ -3,14 +3,17 @@
     /* nav-section  */
              .nav-section{
                 flex-direction: column;
+            
              }
-
+.nav{
+    box-shadow: none;}
              .nav-links{
                 width: 100%;
             }
 
              .link-1{
             
+                margin-bottom:80px ;
                 flex-direction: column;
                }
 
@@ -33,22 +36,25 @@
     .banner-section{
        
         flex-direction:column-reverse;
-        margin-top: 50px;
+       margin-top: 20px;
     
     
     }
 
     .banner-bg{
+     
+     
         width: 100%;
         background-color: none;
         background-image: none;
     }
     
     .banner-text{
-        width: 100%;
+        width: 85%;
         margin-top: 80px;
       
-       
+        background-color: #FDF6FB;
+      padding: 20px;
        
     }
 
