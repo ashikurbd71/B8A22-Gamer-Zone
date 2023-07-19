@@ -7,6 +7,7 @@
     /* nav-section  */
              .nav-section{
                 flex-direction: column;
+                overflow-x: hidden;
             
              }
 .nav{
@@ -38,7 +39,7 @@
 
     /* banner-section */
     .banner-section{
-       
+        overflow-x: hidden;
         flex-direction:column-reverse;
        margin-top: 20px;
     
@@ -92,7 +93,7 @@
 
   
     .gamer-container{
-       
+       overflow-x: hidden;
         flex-direction: column;}
         
         .gamer-img{
@@ -150,7 +151,9 @@
             /* pla.play-instanly-containery  */
 
             .play-instanly-container{
+                overflow-x: hidden;
               flex-direction: column;
+              overflow-x: hidden;
             
             }
 
@@ -186,6 +189,7 @@
             /*  career section */
             .career-section{
                 flex-direction: column;
+                overflow-x: hidden;
                 
             }
 
@@ -216,6 +220,8 @@
 
             .game-section{
                 flex-wrap: wrap;
+                overflow-x: hidden;
+                
             }
 
             /* footer responsive */
@@ -226,17 +232,23 @@
             }
 
             .footer-link{
+                margin: 20px;
                 flex-wrap: wrap;
             }
 
             .footer-icon{
                 flex-wrap: wrap;
+                margin-bottom: 20px;
             }
 
             .footer-link-2{
                 flex-wrap: wrap;
+                margin: 20px;
             }
             
+            .footer small{
+               
+            }
     }
 
 
@@ -344,6 +356,12 @@ background-color: #fff;
 }
 
 .gamer-content p{   margin: 20px;}
+
+.game-1{
+    flex-wrap: wrap;
+    gap: 40px;
+   ;
+}
 
 
 
