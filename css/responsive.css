@@ -140,13 +140,14 @@
             }
 
             .funny-video-section p{
-
+                 margin: 20px;
                 text-align: center;
             }
 
 
             .funny-video h1{
                 font-size: 30px;
+                margin: 20px;
             }
 
             .span-title{
