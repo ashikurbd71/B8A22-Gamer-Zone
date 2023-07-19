@@ -45,6 +45,10 @@
     
     }
 
+    .banner-text-1{
+        text-align: center;
+    }
+
     .banner-bg{
      
      
@@ -62,9 +66,21 @@
        
     }
 
-    .banner{
-        text-align: center;
+    .banner-link{
+        margin-left: 40px;
+        font-size: 15px;
     }
+
+  .banner-btn-1{
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .banner-btn-2{
+    padding: 10px 25px;
+    font-size: 15px;
+  }
 
     
     
@@ -141,7 +157,7 @@
             .play-instanly-text{
                 width: 100%;
             text-align: center;
-            margin: 20px;
+            margin: 20px auto;
             }
             .play-instanly-text h2{
                 margin-bottom: 40px;
@@ -176,7 +192,7 @@
             .career-content{
                 text-align: start;
                 width: 80%;
-                margin: 20px;
+                margin: 20px auto;
             }
 
             .career-img{
@@ -197,6 +213,30 @@
             
             }
 
+
+            .game-section{
+                flex-wrap: wrap;
+            }
+
+            /* footer responsive */
+
+            .footer-logo{
+   
+                flex-wrap: wrap;
+            }
+
+            .footer-link{
+                flex-wrap: wrap;
+            }
+
+            .footer-icon{
+                flex-wrap: wrap;
+            }
+
+            .footer-link-2{
+                flex-wrap: wrap;
+            }
+            
     }
 
 
