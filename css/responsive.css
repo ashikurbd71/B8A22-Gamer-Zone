@@ -349,32 +349,37 @@ text-align: center;
 
 flex-direction: column;}
 
+  
 .gamer-img{
-width: 100%;
+    margin-top: 0;
+      width: 100%;
+      background-color: #fff;
+  }
 
-background-color: #fff;
-}
-
-.gamer-img img{
- margin-top: 50px;
-}
+  .gamer-img img{
+       margin-top: 50px;
+      
+      }
 
 
-.gamer-content{
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-}
+      .gamer-content{
+          margin-left: 0;
+        overflow: hidden;
+          width: 100%;
+          text-align: center;
+          background-color: #fff;
+      }
 
-.gamer-content p{   margin: 20px;}
+  
 
-.game-1{
-    flex-wrap: wrap;
-    gap: 40px;
-   ;
-}
-
+      .gamer-content p{
+          margin: 50px;
+      font-size: 15px;
+      }
+      
+      .gamer-content h2{
+          margin-top: 40px;
+      }
 
 
             /* funny section */
