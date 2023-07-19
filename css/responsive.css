@@ -42,6 +42,8 @@
         overflow-x: hidden;
         flex-direction:column-reverse;
        margin-top: 20px;
+       margin-bottom: 40px;
+    
     
     
     }
@@ -54,14 +56,13 @@
      
      
         width: 100%;
-        background-color: none;
-        background-image: none;
+     
     }
     
     .banner-text{
+      
         width: 85%;
         margin-top: 80px;
-      
         background-color: #FDF6FB;
       padding: 20px;
        
@@ -70,6 +71,8 @@
     .banner-link{
         margin-left: 40px;
         font-size: 15px;
+    
+      
     }
 
   .banner-btn-1{
@@ -93,31 +96,39 @@
 
   
     .gamer-container{
-       overflow-x: hidden;
+  overflow: hidden;
         flex-direction: column;}
         
         .gamer-img{
+          margin-top: 0;
             width: 100%;
-           
             background-color: #fff;
         }
 
         .gamer-img img{
              margin-top: 50px;
+            
             }
 
 
             .gamer-content{
+                margin-left: 0;
+              overflow: hidden;
                 width: 100%;
                 text-align: center;
                 background-color: #fff;
             }
 
+        
+
             .gamer-content p{
                 margin: 50px;
             font-size: 15px;
             }
-
+            
+            .gamer-content h2{
+                margin-top: 40px;
+            }
 
             /* funny section */
             .funny-video-section img{
@@ -151,9 +162,9 @@
             /* pla.play-instanly-containery  */
 
             .play-instanly-container{
-                overflow-x: hidden;
+                
               flex-direction: column;
-              overflow-x: hidden;
+            
             
             }
 
