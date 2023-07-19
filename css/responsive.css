@@ -166,7 +166,37 @@
                 top: 260px;
                 left: -50px;
             }
+
+            /*  career section */
+            .career-section{
+                flex-direction: column;
+                
+            }
+
+            .career-content{
+                text-align: start;
+                width: 80%;
+                margin: 20px;
+            }
+
+            .career-img{
+                width: 80%;
+               position: relative;
+             
         }
+
+        .career-img img{
+   
+        margin-top: 338px;
+         
+     
+            width: 100%;
+             
+            
+            
+            }
+
+    }
 
 
 
@@ -228,7 +258,7 @@ background-image: none;
 }
 
 .banner-text{
-    margin: 20px;
+    margin: 20px auto;
 width: 85%;
 margin-top: 80px;
 
@@ -266,7 +296,7 @@ background-color: #fff;
 
 
 .gamer-content{
-    margin: 20px;
+    margin: 20px auto;
     width: 100%;
     text-align: center;
     background-color: #fff;
@@ -287,14 +317,14 @@ background-color: #fff;
 
             .funny-video-section p{
 
-                margin: 20px;
+                margin: 20px auto;
                 text-align: center;
             }
 
 
             .funny-video h1{
                 font-size: 30px;
-                margin: 20px;
+                margin: 20px auto;
             }
 
             .span-title{
@@ -316,7 +346,7 @@ background-color: #fff;
   .play-instanly-text{
       width: 100%;
   text-align: center;
-  margin: 20px;
+  margin: 20px auto;
   }
   .play-instanly-text h2{
       margin-bottom: 40px;
@@ -329,7 +359,7 @@ background-color: #fff;
   .play-instanly-img{
       margin-top: 40px;
       width: 70%;
-      margin-bottom: 100px;
+      margin-bottom: 10px;
   }
 
   .play-down-box img{
