@@ -180,8 +180,9 @@
             }
 
             .career-img{
+                margin-top: -300px;
                 width: 80%;
-               position: relative;
+        
              
         }
 
@@ -373,6 +374,38 @@ background-color: #fff;
       left: -90px;
   }
 
+
+   /*  career section */
+   .career-section{
+    flex-direction: column;
+    
+}
+
+.career-content{
+    text-align: start;
+    width: 80%;
+    margin: 20px;
+}
+
+.career-img{
+    margin-top: -300px;
+    width: 80%;
+   
+
+ 
+}
+
+.career-img img{
+
+;
+margin-top: 338px;
+
+
+width: 100%;
+ 
+
+
+}
           }
   
     
