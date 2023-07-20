@@ -246,6 +246,7 @@
             .footer-link{
                 margin: 20px;
                 flex-wrap: wrap;
+                font-size: 15px;
             }
 
             .footer-icon{
@@ -256,10 +257,15 @@
             .footer-link-2{
                 flex-wrap: wrap;
                 margin: 20px;
+                font-size: 15px
             }
             
             .footer small{
-               
+                font-size: 15px
+            }
+
+            .footer{
+                
             }
     }
 
@@ -472,12 +478,13 @@ flex-direction: column;}
 
 .career-img img{
 
-;
+
 margin-top: 338px;
 
 
 width: 100%;
  
+}
 
 
 }

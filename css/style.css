@@ -334,6 +334,10 @@ margin-top: 10px;
  height: auto;
 }
 
+.funny-box p{
+    font-size: 18px;
+}
+
 .overlay{
 width: 100%;
 height: 100%;
@@ -545,18 +549,24 @@ color: #FF42A5 ;
   flex-wrap: wrap;
   gap: 40px;
   align-items: center;
-
+  padding-bottom: 40px;
+  padding-top: 40px;
        
 
 }
 
 .game-1{
 
+    padding: 5;
+    border: 2px solid transparent;
+    padding: 2px;
+    border-radius: 40px;
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     transition: all 0.1s ;
+
 }
 
 .game-1 img{
@@ -573,11 +583,11 @@ font-weight: 600;
 }
 
 .game-1:hover{
-    padding: 5px;
+border: 2px solid #F948B2;
 cursor: pointer;
- border-radius: 50px;
+color: #F948B2;
 background: #FFF;
-border: 2px solid   #FF42A5 ;
+
 
 
 }
@@ -590,10 +600,11 @@ border: 2px solid   #FF42A5 ;
     min-height: 350px;
 }
 .footer-section{
+   
     max-width: 1000px;
     margin: 0px auto;
     text-align: center;
-    margin-top: 50px;
+  ;
 
 }
 
